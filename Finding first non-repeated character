@@ -1,0 +1,13 @@
+public class Findingthefirstnonrepeatedcharacter {
+
+  public static void main(String[] args) {
+
+  String inputStr = "Gerero";
+  for(char g :inputStr.toCharArray()){
+  if (inputStr.indexOf(g) == inputStr.lastIndexOf(g)){
+  System.out.println("First non-repeating character is; "+g);
+     break;
+     }
+     }
+  }
+}
